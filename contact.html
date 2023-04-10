@@ -35,43 +35,25 @@
   </head>
   <body>
     <html>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
+      <div class="container">
+        <nav class="d-flex justify-content-between">
           <a class="navbar-brand" href="index.html">Bukola Elisha</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html">About me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+          <ul>
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="/about.html">About</a>
+            </li>
+            <li>
+              <a href="/projects.html">Projects</a>
+            </li>
+            <li class="active">
+              <a href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div
         class="content-container project-content-container contact-container"
       >
@@ -79,19 +61,30 @@
           <h1 class="mb-5">Let's get in touch!</h1>
           <h3><i class="fa-regular fa-envelope"></i> E-mail</h3>
           <p>
-            <a href="mailto:bukola.adanna@gmail.com" target="_blank"
+            <a
+              href="mailto:bukola.adanna@gmail.com"
+              class="contact-link"
+              target="_blank"
               >bukola.adanna@gmail.com</a
             >
           </p>
           <h3><i class="fa-brands fa-instagram"></i> Instagram</h3>
           <p>
-            <a href="https://www.instagram.com/the_ladybukie/" target="_blank"
+            <a
+              href="https://www.instagram.com/the_ladybukie/"
+              class="contact-link"
+              target="_blank"
               >@the_ladybukie</a
             >
           </p>
           <h3><i class="fa-brands fa-github"></i> Github</h3>
           <p>
-            <a href="https://github.com/bukielady" target="_blank">bukielady</a>
+            <a
+              href="https://github.com/bukielady"
+              class="contact-link"
+              target="_blank"
+              >bukielady</a
+            >
           </p>
         </div>
       </div>
