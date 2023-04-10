@@ -20,8 +20,19 @@ h6 {
   text-align: center;
   padding: 160px 20px;
 }
+.projects-hero {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  background: #f5f5f5;
+}
+.projects-hero h1 {
+  font-size: 60px;
+}
 .content-container {
   padding: 160px 20px;
+}
+.project-content-container {
+  padding: 20px 20px;
 }
 .content {
   margin: 40px;
@@ -111,6 +122,13 @@ p {
   }
   .card-deck {
     flex-direction: column;
+    align-items: center;
+  }
+  .projects-hero h1 {
+    font-size: 30px;
+  }
+  .card {
+    padding-bottom: 80px;
   }
 }
 
@@ -120,8 +138,6 @@ p {
 .project-heading {
   text-align: center;
   background-color: var(--secondary-color);
-  margin: 0 -500%;
-  padding: 0 500% !important;
 }
 .project-content {
   margin-top: 0;
@@ -129,7 +145,6 @@ p {
 
 .card-deck {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 }
 .card-image {
